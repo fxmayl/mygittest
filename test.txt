@@ -1,2 +1,6 @@
 this a test file.
-just only test & test.
+<<<<<<< HEAD
+just only test and test.
+=======
+just only test and test.
+>>>>>>> t
