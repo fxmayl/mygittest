@@ -1,0 +1,91 @@
+百度云下载不用客户端：Object.defineProperty(this , 'navigator' , {value: { platform: "" }});
+
+postman可以发送get post put等http请求
+
+52
+
+当输入一个数字n时
+计算n+nn+nnn+...+nnnnnn(n个n)
+如当输入2时
+打印2+22=24
+如当输入3时
+打印3+33+333=369
+
+
+输入10个数字，由大到小排序
+输入10个数字，由小到大排序
+
+
+http://news.sohu.com/20170104/n477795162.shtml（习近平讲教育）
+
+nslookup 域名/ip 可以是现实根据域名查ip
+
+控制面板-》程序-》打开或关闭Windows功能-》Telnet客户端   可以实现telnet功能
+
+
+
+@Mapper如何查询、插入关联表数据（在实体类中加相应的字段），如何在插入时返回主键id(自增)
+
+面向切面编程AOP    @Aspect
+
+Mybatis多数据源——————利用Spring的AbstractRoutingDataSource解决多数据源的问题
+——————————————需要利用ThreadLocal解决线程安全问题
+
+properties随便放在哪里,只要路径写对就可以
+比如你直接放到src下prop.load(new FileInputStream( "database.properties "));
+如果放到你的包里就要写出包的路径:prop.load(new FileInputStream( "../myPackage/database.properties "));
+
+
+IDE中提取方法的工具
+
+各个类、方法的作用域
+
+方法是做什么的，就应该只有该类的东子，不应该有多余
+方法抽象，脱离业务
+
+project facts可以更改版本号，也可以将springboot maven项目编程web项目（勾选相应的选项即可）
+
+tomcat的/manager/text编辑页面需要配置管理员
+在tomcat-users中配置：
+	<role rolename="manager-script"/>
+	<role rolename="manager-jmx"/>
+	<role rolename="manager-gui"/>
+	<user username="fang" password="fang17357" roles="tomcat,manager-gui,manager-script,manager-jmx"/>
+
+将maven项目部署到tomcat上时，要导入maven依赖包  右键——》deployment assmen..-->add -》java build path
+当springboot maven 部署到tomcat上以后出现自己在工程中导入的jar包（第三方包）找不到，直接将该jar包复制到web-inf/lib目录下即可,需要导入tomcat依赖包
+打包方法：右键——》run as——》run configure——》Maven——》新建一个，填入项目路径，goals处填写tomcat7:redeploy(配置了tomcat依赖包以及tomcat的url（/manager/text），否则直接用clean package)
+
+xml文件利用Document输出
+
+springboot maven web jsp文件不被解析，加入下面一段：
+	<dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-jasper</artifactId>
+   	 </dependency>
+
+
+springboot maven 集合mybatis时属性文件放在src/main/resources目录下，名字取为application.properties
+
+
+@cotroller可以返回jsp文件，即return "index" 但是不能返回字符串
+@Restcontrolller不能返回jsp但是能返回字符串，想要返回jsp，可以返回ModelAndView，即ModelAndView mv=new ModelAndView("index");return mv;
+
+
+//利用对话框返回的值 （true 或者 false）
+if(confirm("你确信要转去 天轰穿的博客？"))
+
+ var name=prompt("请输入您的名字","");//将输入的内容赋给变量 name ，
+ //这里需要注意的是，prompt有两个参数，前面是提示的话，后面是当对话框出来后，在对话框里的默认值
+ if(name)//如果返回的有内容
+
+
+<c:forEach var="rubbishInfo" items="${listRubbishInfo}" varStatus="cnt">
+			<tr>
+				<td align="center">${cnt.count}</td>可以获取循环次数
+
+@RunWith(SpringRunner.class)
+@SpringBootTest                          -----在test类中
+
+spring Environment类
+spring profiles用法
