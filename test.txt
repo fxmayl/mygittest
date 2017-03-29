@@ -1,6 +1,5 @@
 this a test file.
 <<<<<<< HEAD
 just only test and test.
-=======
 just only test and test.
 >>>>>>> t
