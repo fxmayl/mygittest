@@ -1,7 +1,0 @@
-12131231231231
-nicaicai
-<<<<<<< HEAD
-test
-=======
-test
->>>>>>> test
